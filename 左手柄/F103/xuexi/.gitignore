@@ -1,0 +1,24 @@
+# Keil MDK-ARM build output
+/MDK-ARM/xuexi/
+
+# Keil user-specific IDE state
+/MDK-ARM/*.uvoptx
+/MDK-ARM/*.uvguix.*
+/MDK-ARM/*.uvgui.*
+
+# Compiler and linker output
+*.axf
+*.bin
+*.crf
+*.d
+*.dep
+*.elf
+*.hex
+*.lnp
+*.lst
+*.map
+*.o
+
+# Temporary editor files
+*.bak
+*.tmp

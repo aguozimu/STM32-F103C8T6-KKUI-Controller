@@ -1,0 +1,54 @@
+# ---- Keil MDK-ARM build output ----
+**/MDK-ARM/xuexi/
+**/Objects/
+**/Listings/
+**/*.axf
+**/*.elf
+**/*.bin
+**/*.hex
+**/*.crf
+**/*.d
+**/*.dep
+**/*.lnp
+**/*.lst
+**/*.map
+**/*.o
+**/*.obj
+**/*.build_log.htm
+**/*.sct.Bak
+
+# ---- Keil user-specific IDE state ----
+**/*.uvoptx
+**/*.uvguix.*
+**/*.uvgui.*
+
+# ---- Logs and temporary files ----
+*.log
+*.log.*
+*.bak
+*.Bak
+*.tmp
+*.temp
+*.swp
+*~
+
+# ---- Python verification/cache environments ----
+**/__pycache__/
+**/*.py[cod]
+**/.venv/
+**/venv/
+**/env/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.coverage
+**/htmlcov/
+**/pip-*
+**/*.egg-info/
+
+# ---- Editors and operating system ----
+.vscode/
+.idea/
+**/Thumbs.db
+**/Desktop.ini
+**/.DS_Store
