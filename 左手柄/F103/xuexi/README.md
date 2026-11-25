@@ -1,5 +1,10 @@
 # STM32F103 遥控器固件
 
+## 资源链接
+
+- **演示视频**：[YouTube 演示视频](https://youtu.be/B1da01hPyU0?si=EHgXTzQ1f3uk6zeB)
+- **硬件开源**：[立创开源广场项目页](https://oshwhub.com/qwqemm/project_teuseijg)
+
 本工程是基于 **STM32F103C8T6** 的遥控器固件。外设初始化由 STM32CubeMX 配置，使用 STM32 HAL 驱动外设、FreeRTOS/CMSIS-RTOS 管理任务，并通过 Keil MDK-ARM 工程编译。
 
 工程包含按键与菜单界面、摇杆 ADC 采样、陀螺仪相关任务、无线通信模块驱动，以及 OLED 显示。具体硬件接线和外设引脚以 `xuexi.ioc` 与 `Core/Src/*_hal_msp.c`、外设初始化源码为准。

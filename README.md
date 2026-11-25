@@ -1,5 +1,10 @@
 # STM32-F103C8T6-KKUI-Controller
 
+## 资源链接
+
+- **演示视频**：[YouTube 演示视频](https://youtu.be/B1da01hPyU0?si=EHgXTzQ1f3uk6zeB)
+- **硬件开源**：[立创开源广场项目页](https://oshwhub.com/qwqemm/project_teuseijg)
+
 基于 **STM32F103C8T6** 的双手柄遥控器固件归档。仓库同时保存左手柄与右手柄两套 Keil MDK-ARM 工程，两套工程共享主要控制、显示和通信实现，并通过角色宏区分左右身份。
 
 ## 主要功能
